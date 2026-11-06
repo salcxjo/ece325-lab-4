@@ -1,0 +1,8 @@
+Regular; Route 4, LRT; 8.00
+Regular; LRT, Route 4; 9.01
+Regular; Route 5, LRT; 7.0
+Senior; Route 8, Route 1; 2.99
+Senior; Route 8, Route 1; 6.00
+Senior; Route 1, Route 8; 3.00
+Student; LRT; 4.0
+Student; LRT; 4.0
