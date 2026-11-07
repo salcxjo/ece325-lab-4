@@ -1,10 +1,27 @@
 package ece325.labs.lab4;
 
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
 public class TransitApp {
 	
 	public static void main(String[] args) {
         
-		// 1. TODO: Create travel pattern collection
+		TravelPatternCollection collection = new TravelPatternCollection();
+		try {
+			ArrayList<String> lines = TransitLoaderAudit.loadData("tap_summary.txt");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		for (line : lines)
+			{
+			ArrayList<DailyRouteProfile> line = [];
+			line.getName().append(DailyRouteProfile.parseRouteProfiles(line));
+			}
+			
+			
+		TravelPatternCollection.processRouteProfile(line)
+		
         
 		// 2. TODO: Load tap summary transit data from file
 				

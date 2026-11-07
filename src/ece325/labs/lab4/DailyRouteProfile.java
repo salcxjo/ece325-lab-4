@@ -12,15 +12,12 @@ public class DailyRouteProfile implements Comparable<DailyRouteProfile> {
     private int recordCount;
 
     public DailyRouteProfile(String category, ArrayList<String> routes, double initialFare) {
-    	// TODO: initialize the category instance variable
+    	this.category = category;
+    	this.routes = routes;
+    	this.initialFare = initialFare;
+    	this.averageFare = initialFare;
+    	this.recordCount = 1;
 
-    	// TODO: initialize the routes instance variable
-
-        // TODO: initialize the initialFare instance variable
-
-    	// TODO: initialize the averageFare instance variable
-
-        // TODO: initialize the recordCount instance variable
     }
 
 	/**
